@@ -1,0 +1,22 @@
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter and testing cache
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Generated data and local vector indexes
+storage/
+data/
